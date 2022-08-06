@@ -6,3 +6,76 @@
     --neutral-lg: hsl(0, 0%, 81%);
     --neutral-lgblue: hsl(210, 46%, 95%);
 }
+
+.bg-dan {
+    background-color: var(--primary-mv);
+    background-image: url(/src/images/bg-pattern-quotation.svg);
+    background-repeat: no-repeat;
+    background-position: top right;
+}
+
+.bg-dan h1,
+.bg-dan h2 {
+    color: hsl(0, 0%, 100%);
+}
+
+.bg-dan p {
+    color: var(--neutral-lg);
+    opacity: 0.7;
+}
+
+.bg-jon {
+    background-color: var(--primary-vdgblue);
+}
+
+.bg-jon h1,
+.bg-jon h2 {
+    color: hsl(0, 0%, 100%);
+}
+
+.bg-jon p {
+    color: var(--neutral-lg);
+    opacity: 0.7;
+}
+
+.bg-jean {
+    background-color: hsl(0, 0%, 100%);
+}
+
+.bg-jean h1,
+.bg-jean h2,
+.bg-jean p {
+    color: hsl(0, 0%, 0%);
+}
+
+.bg-jean p {
+    opacity: 0.5;
+}
+
+.bg-pat {
+    background-color: var(--primary-vdbblue);
+}
+
+.bg-pat h1,
+.bg-pat h2 {
+    color: hsl(0, 0%, 100%);
+}
+
+.bg-pat p {
+    color: var(--neutral-lg);
+    opacity: 0.7;
+}
+
+.bg-kira {
+    background-color: hsl(0, 0%, 100%);
+}
+
+.bg-kira h1,
+.bg-kira h2,
+.bg-kira p {
+    color: hsl(0, 0%, 0%);
+}
+
+.bg-kira p {
+    opacity: 0.5;
+}

@@ -1,3 +1,5 @@
+@use '../util' as u;
+
 html {
     box-sizing: border-box;
     font-size: 100%;
@@ -13,4 +15,17 @@ body {
     margin: 0;
     padding: 0;
     background-color: var(--neutral-lg);
+    font-family: u.$font;
+    font-size: 13px;
+}
+
+.profile-pic {
+    width: 35px;
+    height: 35px;
+    border: 2px solid hsl(263, 36%, 58%);
+    border-radius: 50%;
+}
+
+.no-border {
+    border: none;
 }

@@ -1,0 +1,23 @@
+.grid {
+    display: grid;
+    gap: 0.5rem;
+    justify-content: center;
+    align-items: center;
+
+    &__card {
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        margin-inline: auto;
+        padding: 1.5rem;
+        margin: 1rem auto;
+        gap: 1rem;
+        border-radius: 0.5rem;
+        box-shadow: 0 0 0.8rem 0.1rem hsl(0, 3%, 94%);
+
+        &--wrapper {
+            display: flex;
+            gap: 1rem;
+        }
+    }
+}
