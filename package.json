@@ -1,0 +1,22 @@
+{
+  "name": "testimonial-grid",
+  "version": "1.0.0",
+  "description": "Frontend Mentor | Testimonial Grid Section",
+  "scripts": {
+    "start": "parcel ./src/index.html",
+    "prebuild-dev": "shx rm -rf dist/*",
+    "build-dev": "parcel build ./src/index.html --no-optimize --public-url ./",
+    "prebuild": "shx rm -rf dist/*",
+    "build": "parcel build ./src/index.html --public-url ./"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.7.0",
+    "shx": "^0.3.2"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "parcel": "^2.7.0"
+  }
+}
