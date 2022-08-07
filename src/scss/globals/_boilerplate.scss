@@ -1,28 +1,27 @@
 @use '../util' as u;
 
-html {
-    box-sizing: border-box;
-    font-size: 100%;
-}
-
 *,
 *::before,
 *::after {
-    box-sizing: inherit;
+    box-sizing: border-box;
 }
 
 body {
+    display: grid;
+    place-content: center;
+    min-height: 100vh;
     margin: 0;
     padding: 0;
     background-color: var(--neutral-lg);
     font-family: u.$font;
-    font-size: 13px;
+    font-size: u.rem(13);
 }
 
+
 .profile-pic {
-    width: 35px;
-    height: 35px;
-    border: 2px solid hsl(263, 36%, 58%);
+    width: u.rem(35);
+    height: u.rem(35);
+    border: u.rem(2) solid hsl(263, 36%, 58%);
     border-radius: 50%;
 }
 

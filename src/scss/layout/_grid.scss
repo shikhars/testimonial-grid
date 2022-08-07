@@ -1,23 +1,104 @@
+@use '../util/' as u;
+
 .grid {
     display: grid;
-    gap: 0.5rem;
-    justify-content: center;
-    align-items: center;
+    grid-template-columns: 1fr;
+    width: 80%;
+    margin-inline: auto;
+    gap: 1.5rem;
 
     &__card {
-        display: flex;
-        flex-direction: column;
-        width: 80%;
-        margin-inline: auto;
+        display: grid;
         padding: 1.5rem;
         margin: 1rem auto;
-        gap: 1rem;
         border-radius: 0.5rem;
         box-shadow: 0 0 0.8rem 0.1rem hsl(0, 3%, 94%);
+        gap: 0.5rem;
+
 
         &--wrapper {
             display: flex;
             gap: 1rem;
         }
     }
+
+
+    @include u.breakpoint(medium) {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+
+        .first {
+            grid-column-start: 1;
+            grid-column-end: 3;
+        }
+
+        .second {
+            grid-column-start: 3;
+            grid-column-end: 4;
+        }
+
+        .third {
+            grid-column-start: 1;
+            grid-column-end: 2;
+            grid-row-start: 2;
+            grid-row-end: 3;
+        }
+
+        .fourth {
+            grid-column-start: 2;
+            grid-column-end: 4;
+            grid-row-start: 2;
+            grid-row-end: 3;
+        }
+
+        .fifth {
+            grid-column-start: 1;
+            grid-column-end: 4;
+            grid-row-start: 3;
+            grid-row-end: 4;
+        }
+
+        &__card {
+            margin: 0 auto;
+        }
+    }
+
+
+    @include u.breakpoint(larger) {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+
+        .first {
+            grid-column-start: 1;
+            grid-column-end: 3;
+        }
+
+        .second {
+            grid-column-start: 3;
+            grid-column-end: 4;
+        }
+
+        .third {
+            grid-column-start: 1;
+            grid-column-end: 2;
+            grid-row-start: 2;
+        }
+
+        .fourth {
+            grid-column-start: 2;
+            grid-column-end: 4;
+        }
+
+        .fifth {
+            grid-column-start: 4;
+            grid-column-end: 5;
+            grid-row-start: 1;
+            grid-row-end: 3;
+        }
+
+        &__card {
+            margin: 0 auto;
+        }
+    }
+
 }
