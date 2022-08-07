@@ -4,7 +4,7 @@
 
 body {
   min-height: 100vh;
-  background-color: var(--neutral-lg);
+  background-color: var(--neutral-lgblue);
   place-content: center;
   margin: 0;
   padding: 0;
@@ -199,4 +199,4 @@ p {
   }
 }
 
-/*# sourceMappingURL=index.4159ea2b.css.map */
+/*# sourceMappingURL=index.92e9482d.css.map */
