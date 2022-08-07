@@ -17,15 +17,21 @@ This is a solution to the [Testimonials grid section challenge on Frontend Mento
 
 ### Links
 
-- Solution URL: https://github.com/shikhars/qr-code
-- Live Site URL: https://shikhars.github.io/qr-code/
+- Solution URL: https://github.com/shikhars/testimonial-grid
+- Live Site URL: https://shikhar-testimonial-grid.netlify.app/
 
 ## My process
 
-- I wrote the html first to structure the webpage and then used flexbox and classes in css to style the page.
+- I wrote the html first to structure the webpage.
+- I created Sass partials and folders to organise the Sass workflow.
+- I used the mobile-first approach to create the layout for smaller devices.
+- I used CSS Grid, @mixins, and @media queries to create breakpoints for Tablet and Desktop layouts.
 
 ### Built with
 
 - HTML5
-- CSS
+- SCSS
+- CSS Grid
+- CSS Custom Prpoerties
+- Sass Built-in modules (sass:map and sass:math)
 - Flexbox
