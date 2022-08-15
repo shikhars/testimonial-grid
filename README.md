@@ -24,7 +24,8 @@ This is a solution to the [Testimonials grid section challenge on Frontend Mento
 - I wrote the html first to structure the webpage.
 - I created Sass partials and folders to organise the Sass workflow.
 - I used the mobile-first approach to create the layout for smaller devices.
-- I used CSS Grid, @mixins, and @media queries to create breakpoints for Tablet and Desktop layouts.
+- I used CSS Grid to build the mobile layout and modified the Grid items to achieve the desired Tablet and desktop layouts.
+- I used @mixins, and @media queries to create breakpoints for Tablet and Desktop layouts.
 
 ### Built with
 
